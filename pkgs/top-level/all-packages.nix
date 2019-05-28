@@ -4471,6 +4471,8 @@ with pkgs;
 
   quota = callPackage ../tools/misc/quota { };
 
+  qview = libsForQt5.callPackage ../applications/graphics/qview {};
+
   wiggle = callPackage ../development/tools/wiggle { };
 
   radamsa = callPackage ../tools/security/radamsa { };
